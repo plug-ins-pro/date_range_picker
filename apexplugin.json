@@ -1,0 +1,35 @@
+
+{
+  "name" : "Date Range Picker",
+  "version" : "20.1",
+  "description" : "Select date ranges using a date picker!  This item plug-in provides a new date picker experience that works with the Universal Theme. Behavior and appearance settings can be easily changed.",
+  "keywords" : ["Date","Range"],
+  "homepage" : "https://www.plug-ins-pro.com/",
+  "bugs" : {
+    "url" : "https://github.com/plug-ins-pro/date_range_picker/issues",
+    "email" : "support@plug-ins-pro.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "United Codes",
+    "email" : "info@plug-ins-pro.com",
+    "url" : "https://www.united-codes.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plug-ins-pro/date_range_picker"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x"],
+    "apex" : {
+      "versions" : ["19.2.0", "20.1.0", "20.2.0"],
+      "plugin" : {
+        "internalName" : "UNITEDCODES_DATE_PICKER",
+        "type" : "item",
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/date_range_picker/home",
+        "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/591/files/static/v28/home-promo.gif"
+      }
+    }
+  }
+}
